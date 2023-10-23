@@ -1020,7 +1020,7 @@ if (!is.na(seed)) { set.seed(seed) }
     results <- list(
       n = NA, model = model, powers = powers,
       coefficients = coefficients, lace = lace,
-      xcoef = xcoef_quant, p_tests = p_tests, figure = figure
+      xcoef = xcoef_quant, p_tests = p_tests, figure = figure, plot.data = plot_data
     )
   }
   if (fig == FALSE) {
